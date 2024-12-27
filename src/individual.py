@@ -10,7 +10,7 @@ def display_tree(
     directory: pathlib.Path,
     args: argparse.Namespace,
     prefix: str = "",
-    current_depth: int = 0
+    current_depth: int = 0,
 ) -> None:
     """
     Рекурсивная функция для отображения дерева каталогов и файлов.
